@@ -1,0 +1,49 @@
+# git ls-files --others --exclude-from=.git/info/exclude
+# Lines that start with '#' are comments.
+# For a project mostly in C, the following would be a good set of
+# exclude patterns (uncomment them if you want to use them):
+# *.[oa]
+# *~
+*.*
+SourceSafeDatabase/*
+!*.pas
+!*.dfm
+!*.dpr
+!*.dpk
+!*.bpg
+!*.dof
+!*.cfg
+!*.res
+!*.inc
+!*.xml
+!*.ini
+!*.obj
+!QrDesign/Barcode.d32
+!Komponensek/uUPClickSplitter.dcr
+!THtml/English.txt
+!Ujpenzugy/KartonTran.dcr
+!Komponensek/CheckCombo.r32
+!QReport/Qreport.dcr
+!Komponensek/RarBar.dcr
+!Komponensek/TopMail.dcr
+!*.uts
+!.gitkeep
+!.gitignore
+/Ker/Nemkell/KER1ME11u.dfm
+/Ker/Nemkell/KER1ME11u.pas
+/Ker/Nemkell/KER1ME1u.dfm
+/Ker/Nemkell/KER1ME1u.pas
+/Ker/Nemkell/KER1ME4u.dfm
+/Ker/Nemkell/KER1ME4u.pas
+/Ker/Nemkell/KER1ME5u.dfm
+/Ker/Nemkell/KER1ME5u.pas
+/Ker/Nemkell/KER1ME6u.dfm
+/Ker/Nemkell/KER1ME6u.pas
+/Ker/Nemkell/KER1ME7u.dfm
+/Ker/Nemkell/KER1ME7u.pas
+/Ker/Nemkell/KER297u.dfm
+/Ker/Nemkell/KER297u.pas
+/Ker/Nemkell/KER298u.dfm
+/Ker/Nemkell/KER298u.pas
+/Ker/Nemkell/Ker1me3u.dfm
+/Ker/Nemkell/Ker1me3u.pas
